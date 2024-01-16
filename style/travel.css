@@ -72,8 +72,8 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-   padding: 10px 50px;
-    
+    padding: 10px 50px;
+
 }
 
 .form-section {
@@ -84,7 +84,7 @@
     align-items: flex-start;
     gap: 24px;
     padding-left: 70px;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 #box {
@@ -93,8 +93,8 @@
     width: 174px;
     height: 52px;
     flex-shrink: 0;
-    margin:0px 15px;
-    
+    margin: 0px 15px;
+
 }
 
 #button {
@@ -104,7 +104,7 @@
     height: 52px;
     flex-shrink: 0;
     margin-right: 280px;
- 
+
     /* text related */
     color: #FFF;
     text-align: center;
@@ -113,4 +113,55 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+/* responsive media qurery */
+@media screen and (max-width:576px) {
+    .banner {
+        width: 335px;
+        height: 483px;
+        flex-shrink: 0;
+        background-size: 335px 483px;
+    }
+    .heading{
+        font-size: 22px;
+        padding:0px 64px 2px 86px;
+        width: 200px;
+        padding-top: 12px;
+    }
+    .text-design{
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .form-section {
+        flex-direction: column;
+        width: 255px;
+        height: 40px;
+        flex-shrink: 0;
+        padding-top: 100px;
+        gap: 5px;
+        
+      
+     
+    }
+    #box{
+       margin-bottom: 5px;
+      height: 52px;
+      width: 200px;
+      
+    }
+    #button{
+        margin-left: 15px;
+        width: 200px;
+    }
+
 }
