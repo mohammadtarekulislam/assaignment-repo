@@ -115,6 +115,93 @@
     line-height: normal;
 }
 
+/* image related style */
+.destination {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+
+.maldives-container,
+.srilanka-container,
+.bandorban-banner {
+    display: flex;
+    position: relative;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* destination text section */
+#maldives {
+    position: absolute;
+    top: 43%;
+    left: 20%;
+
+    color: #FFF;
+    font-size: 20px;
+}
+
+#indonesia {
+    position: absolute;
+    top: 43%;
+    left: 20%;
+    transform: translate(630px, -9px);
+    color: #FFF;
+    font-size: 20px;
+}
+
+
+
+#srilanka {
+    position: absolute;
+    top: 43%;
+    left: 20%;
+
+    color: #FFF;
+    font-size: 20px;
+}
+
+#north {
+    position: absolute;
+    top: 43%;
+    left: 20%;
+    transform: translate(360px, -39px);
+    color: #FFF;
+    font-size: 20px;
+}
+
+#kashmir {
+    position: absolute;
+    top: 43%;
+    left: 20%;
+    transform: translate(749px, -20px);
+    color: #FFF;
+    font-size: 20px;
+}
+
+#bangladesh {
+    position: absolute;
+    top: 43%;
+    left: 20%;
+
+    color: #FFF;
+    font-size: 20px;
+}
+
+#bandorban {
+    position: absolute;
+    top: 43%;
+    left: 20%;
+    transform: translate(664px, 5px);
+    color: #FFF;
+    font-size: 20px;
+}
+
+
+
+
+
 
 
 
@@ -124,20 +211,24 @@
 
 
 /* responsive media qurery */
+
 @media screen and (max-width:576px) {
+
     .banner {
         width: 335px;
         height: 483px;
         flex-shrink: 0;
         background-size: 335px 483px;
     }
-    .heading{
+
+    .heading {
         font-size: 22px;
-        padding:0px 64px 2px 86px;
+        padding: 0px 64px 2px 86px;
         width: 200px;
         padding-top: 12px;
     }
-    .text-design{
+
+    .text-design {
         font-size: 14px;
         padding: 5px;
     }
@@ -149,19 +240,45 @@
         flex-shrink: 0;
         padding-top: 100px;
         gap: 5px;
-        
-      
-     
+
+
+
     }
-    #box{
-       margin-bottom: 5px;
-      height: 52px;
-      width: 200px;
-      
+
+    #box {
+        margin-bottom: 5px;
+        height: 52px;
+        width: 200px;
+
     }
-    #button{
+
+    #button {
         margin-left: 15px;
         width: 200px;
     }
+
+    /* destination section related responsive */
+
+    .destination>div img{
+        width: 335px;
+        height: 176px;
+
+    }
+    
+    .maldives-container,
+.srilanka-container,
+.bandorban-banner{
+    
+    flex-direction: column;
+}
+        
+    
+        
+
+
+
+
+
+
 
 }
