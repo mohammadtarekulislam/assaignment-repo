@@ -212,6 +212,9 @@
 
 /* responsive media qurery */
 
+
+
+
 @media screen and (max-width:576px) {
 
     .banner {
@@ -259,21 +262,61 @@
 
     /* destination section related responsive */
 
-    .destination>div img{
+
+
+
+
+    /* img related responsive style */
+    .destination>div img {
         width: 335px;
         height: 176px;
 
     }
-    
+
     .maldives-container,
-.srilanka-container,
-.bandorban-banner{
-    
-    flex-direction: column;
-}
-        
-    
-        
+    .srilanka-container,
+    .bandorban-banner {
+
+        flex-direction: column;
+    }
+
+    /* text related responsive style */
+    #maldives {
+        transform: translate(10px, -122px);
+    }
+
+    #indonesia {
+        transform: translate(38px, 100px);
+    }
+
+    #srilanka {
+        transform: translate(40px, -186px);
+    }
+
+    #north{
+        transform: translate(38px, 40px);
+    }
+
+    #kashmir {
+        transform: translate(38px, 204px);
+    }
+
+    #bangladesh {transform: translate(38px, -82px);}
+
+    #bandorban {
+        transform: translate(38px, 100px);
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
